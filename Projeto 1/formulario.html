@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link type="text/css" rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+
+    <div class="cabecario">
+        <h1 class="titulo">Contate-nos!</h1>
+
+        <div class="card-container-botoes">
+            <p>
+                <a class="card-botoes" href="index.html">INÍCIO</a>
+                <a class="card-botoes" href="historia.html">HISTÓRIA</a>
+                <a class="card-botoes" href="browsers.html">BROWSERS</a>
+                <a class="card-botoes" href="formulario.html">CONTATO</a>
+            </p>
+        </div>
+    </div>
+
+    <form method="get" action="">
+
+        <p class="introducao">Responda os campos abaixo:</p>
+
+        <hr>
+
+        <label for="nome">Nome Completo*:</label>
+        <input type="text" id="nome" name="Nome Completo" placeholder="Digite seu nome completo." required>
+
+        <label for="email">Email*:</label>
+        <input type="email" id="email" name="Email" placeholder="Digite seu Email." required>
+
+        <label for="idade">Idade*:</label>
+        <input type="number" id="idade" name="Idade" placeholder="Ex.: 18" min="1" max="120" required>
+
+        <label for="data-nascimento">Data Nascimento*:</label>
+        <input type="date" id="data-nascimento" name="Data Nascimento" required>
+
+        <fieldset>
+            <legend>Sexo*:</legend>
+
+            <label>
+                <input type="radio" name="sexo" value="feminino" required>
+                Feminino
+            </label>
+
+            <label>
+                <input type="radio" name="sexo" value="masculino">
+                Masculino
+            </label>
+        </fieldset>
+
+        <label for="cidade">Qual a cidade que você reside*?</label>
+        <input type="text" id="cidade" name="Cidade" placeholder="Três Arroios..." required>
+
+        <label for="Escolha">Melhor parte da Internet em sua vida*:</label>
+        <select id="Escolha" name="cafepref" required>
+            <option value="lazer">Lazer</option>
+            <option value="informacao">Informação</option>
+            <option value="praticidade">Praticidade</option>
+            <option value="conexao">Conexão</option>
+        </select>
+
+        <label for="prefere">Você utiliza a internet de*:</label>
+
+        <div class="opcoes">
+            <label>
+                <input type="checkbox" name="horario" value="manha">
+                Manhã
+            </label>
+
+            <label>
+                <input type="checkbox" name="horario" value="tarde">
+                Tarde
+            </label>
+
+            <label>
+                <input type="checkbox" name="horario" value="noite">
+                Noite
+            </label>
+        </div>
+
+        <label for="Descrever">Como você descreveria a internet*?</label>
+        <input type="text" id="Descrever" name="Descrever" placeholder="Descreva aqui" required>
+
+        <label for="Prefere">Você costuma utilizar a internet com:</label>
+
+        <div class="opcoes-coluna">
+            <label>
+                <input type="checkbox" name="uso" value="redes-sociais">
+                Redes Sociais
+            </label>
+
+            <label>
+                <input type="checkbox" name="uso" value="trabalho">
+                Aplicativos de Trabalho
+            </label>
+
+            <label>
+                <input type="checkbox" name="uso" value="noticias">
+                Sites de notícias
+            </label>
+
+            <label>
+                <input type="checkbox" name="uso" value="jogos">
+                Jogos
+            </label>
+
+            <label>
+                <input type="checkbox" name="uso" value="funcionalidades">
+                Funcionalidades
+            </label>
+
+            <label>
+                <input type="checkbox" name="uso" value="outros">
+                Outros
+            </label>
+        </div>
+
+        <label for="Mudar">Se você pudesse mudar algo na internet...</label>
+        <input type="text" id="Mudar" name="Mudar" placeholder="Qual seria sua mudança?">
+
+        <label for="novidades">
+            Receber novidades por email
+            <input type="checkbox" id="novidades" name="novidades">
+        </label>
+
+        <label for="Comentar">Deixe sua opinião ou comentário:</label>
+        <textarea id="Comentar" name="Comentar" placeholder="Deixe seu comentário" rows="7"></textarea>
+
+        <hr>
+
+        <div class="botoes-formulario">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+        <hr>
+
+    </form>
+
+    <div class="card-sugestao">
+        <p align="center">
+            Gostaria de oferecer uma sugestão? Envie um email para o
+            <a href="mailto:2026331093@aluno.erechim.ifrs.edu.br">
+                2026331093@aluno.erechim.ifrs.edu.br
+            </a>
+        </p>
+    </div>
+    <div class="rodape">
+            <p>Desenvolvido por KONZEN, Gregory - Todos os direitos reservados</p>
+    </div>
+</body>
+</html>
